@@ -1,0 +1,45 @@
+.card {
+    border-radius: 14px;
+    border: 2px solid #eb0000;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #f50000;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 10px rgb(241, 61, 61);
+}
+
+.card-img-top {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    margin: 1rem auto;
+    display: block;
+}
+
+.card-title {
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.card-text {
+    font-size: 17px;
+    color: #000000;
+}
+
+.card .btn {
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+body {
+  background: url("https://www.gifcen.com/wp-content/uploads/2023/11/pokemon-gif-5.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+
